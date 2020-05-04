@@ -43,6 +43,7 @@
 		    <version>2.4.5</version>
 		</dependency>
 
+
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
 		<dependency>
 		    <groupId>org.apache.spark</groupId>
@@ -50,7 +51,30 @@
 		    <version>2.4.5</version>
 		</dependency>
 
-		
+		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-streaming_2.12</artifactId>
+		    <version>2.4.5</version>
+		    <scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
+		<dependency>
+		    <groupId>org.twitter4j</groupId>
+		    <artifactId>twitter4j-stream</artifactId>
+		    <version>4.0.7</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.bahir/spark-streaming-twitter -->
+		<dependency>
+		    <groupId>org.apache.bahir</groupId>
+		    <artifactId>spark-streaming-twitter_2.12</artifactId>
+		    <version>2.4.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
